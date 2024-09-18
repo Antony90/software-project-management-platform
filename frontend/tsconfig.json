@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "esModuleInterop": true,
+        "types": [
+            "mocha",
+             "node",
+            "jest"
+        ],
+        "noImplicitOverride":true,
+        "noImplicitAny": true,
+        "lib": [
+            "dom",
+            "ES2021.String"
+        ]
+    }
+}

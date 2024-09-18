@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+ul.slick-dots>li>button{
+  background-color:black!important;
+  position: relative;
+  top: 40px;
+}
+
+div.slick-track{
+  display: flex !important;
+}
+
+div.slick-slide{
+  height:revert !important;
+  display:flex !important;
+}
+
+div.slick-slide>div{
+  width:100%;
+}
+
+div.ant-modal-content{
+  max-height:100%;
+  overflow: auto;
+}
+
+div.projectRiskCollapse div.ant-collapse-header{
+  height: 100%;
+  align-items: center !important;
+}
+
+div.gantt text {
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji !important;
+}
+
+div.piechart text {
+  font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji !important;
+}
+
+div.piechart g {
+  cursor: pointer;
+}
+
+div.gantt g text {
+  cursor: pointer !important
+}
+
+div.gantt g>rect {
+  cursor: pointer
+}
+
+div.projectRiskCollapse{
+  height:100%;
+  width:100%;
+}
+
+div.projectRiskCollapse div.ant-collapse-content{
+  border:0 !important;
+}
+
+div.projectRiskCollapse div.ant-collapse-content-box {
+  padding: 0 !important;
+  border:0 !important;
+}
+
+div.ant-collapse-expand-icon{
+  align-self: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  height: 100%;
+  width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "budgetUsage": 0.5,
+  "schedulePerformanceIndex": 1,
+  "costPerformanceIndex": 0.8,
+  "probablilityExceedTimeFrame": 0.5,
+  "missingSkillCoverage": 0.8
+}

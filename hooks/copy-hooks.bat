@@ -1,0 +1,1 @@
+call xcopy /s /e "pre-commit" "../.git/hooks" /Y
